@@ -1,0 +1,16 @@
+{
+  "name": "@worksai/worksai-forumpulse",
+  "version": "1.0.0",
+  "description": "MIT-licensed PHP community forum with automated spam/toxicity scoring and thread-to-FAQ extraction.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "node --test tests/product.test.mjs",
+    "lint": "node --check src/index.mjs && node --check tests/product.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevinAiUk/worksai-forumpulse.git"
+  }
+}
