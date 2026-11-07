@@ -1,0 +1,14 @@
+{
+  "name": "worksai/worksai-forumpulse",
+  "description": "MIT-licensed PHP community forum with automated spam/toxicity scoring and thread-to-FAQ extraction.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "WorksAi\\WorksAiForumPulse\\": "src/"
+    }
+  }
+}
