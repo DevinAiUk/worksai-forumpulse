@@ -1,0 +1,14 @@
+name = "worksai-forumpulse"
+main = "src/worker.mjs"
+compatibility_date = "2025-11-01"
+
+[vars]
+APP_SLUG = "worksai-forumpulse"
+APP_SUBDOMAIN = "forumpulse.worksai.org"
+HUB_URL = "https://worksai.org"
+NEON_PROJECT_ID = "flat-art-36324621"
+NEON_SCHEMA = "worksai_hub"
+
+routes = [
+  { pattern = "forumpulse.worksai.org/*", zone_name = "worksai.org" }
+]
